@@ -1,38 +1,40 @@
 body {
-    /*background-image: url(https://w.forfun.com/fetch/70/703e3aefd9500eff0f63294bc383ac2a.jpeg);
-    background-size: 1000px 300px;
-    background-repeat: no-repeat;
-    background-attachment: fixed;*/
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p {
+    font-weight: bold;
 }
 h1 {
-    background-color: aquamarine;
+    font-style: italic;
 }
-span, div {
-    background-color: blue;
+.th {
+    font-variant-caps: all-petite-caps;
 }
-span {
-    min-width: 200px;
-    font-size: 2em;
+th {
+    background-color: #0066ff;
 }
-.wrapper {
-    /*border-bottom-width: 10px;
-    border-bottom-style: dashed;
-    border-bottom-color: red;*/
-    border: 10px solid red;
-    /*padding-top: 50px;
-    padding-right: 150px;
-    padding-bottom: 30px;
-    padding-left: 400px;
-    margin-top: 50px;
-    margin-right: 50px;
-    margin-bottom: 20px;
-    margin-left: 10px;*/
-    padding: 50px 150px 30px 40px;
-    margin: 50px 50px 20px 10px;
-    width: 300px;
-    height: 100px;
+td {
+    background-color: #00aeff;
 }
-.width-params {
-    background: #777;
-    margin: 25px;
+a {
+    color: #00f;
+    text-decoration-line: underline;
+}
+a:visited {
+    color: #005;
+    text-decoration-line: underline;
+}
+a:hover {
+    text-decoration-line: none;
+}
+ul {
+    list-style: square;
+}
+.border {
+    border-bottom: 1px solid red;
+}
+img {
+    padding: 10px;
+    border: 2px solid red;
 }
